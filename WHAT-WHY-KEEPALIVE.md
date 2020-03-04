@@ -3,4 +3,7 @@
 close connection, server sẽ đóng TCP connection sau khi đã return response, điều này sẽ làm cho hiệu suất transaction giảm xuống,
 trải nghiệm người dùng sẽ bị ảnh hưởng ít nhiều, lượng RAM và CPU trên server sẽ bị tiêu tốn rất nhiều.
 - Để giải quyết vấn đề này, một giải pháp hữu hiệu đã được đưa ra đó là **keepalive**, nó được sử dụng rất phổ biến hiện nay
-vì tầm quan trọng và mức độ giải quyết v
+vì tầm quan trọng và mức độ giải quyết vấn đề.
+- Chúng ta sẽ đi tìm hiểu hai giao thức sử dụng keepalive đó là TCP keepalive và HTTP keepalive
+## TCP keepalive 
+- 
